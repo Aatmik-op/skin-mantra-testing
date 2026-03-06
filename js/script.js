@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const service = document.getElementById('userService').value;
 
             if (name && phone && service) {
-                const phoneNumber = '919235460024'; // Updated Clinic WhatsApp Number
+                const phoneNumber = '916306040736'; // Updated Clinic WhatsApp Number
                 const message = `Hello, I would like to book a consultation at Skin Mantraa.\n\nName: ${name}\nPhone: ${phone}\nService: ${service}`;
                 const encodedMessage = encodeURIComponent(message);
                 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
